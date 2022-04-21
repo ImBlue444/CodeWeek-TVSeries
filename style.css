@@ -1,0 +1,112 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #0F171E;
+}
+.topNav{
+    background-color: #546f8c;
+    padding: 10px;
+    position: sticky; 
+    top: 0px; 
+    overflow: hidden;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+ul a {
+    font-size: 25px;
+    margin-right: 20px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.logoPrime{
+    padding: 0px;
+    margin-right: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.wrapperSerie{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+h2{
+    margin-left: 50px;
+    text-align: left;
+    color: white;
+}
+
+.wrapperSerie img {
+    width: 250px;
+}
+
+.card{
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+.detailsTitle{
+    margin: 0px;
+    justify-content: left;
+    font-size: 120px;
+    padding-left: 5px;
+}
+
+.detailsDesc{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.voteEl{
+    color: white;
+    font-size: 60px;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+iframe{
+    width: 100%;
+}
+
+.numEpEl{
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.numStEl{
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.indietro{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    margin-left: 1000px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.indietro:hover{
+    background-color: #b8360f;
+}
